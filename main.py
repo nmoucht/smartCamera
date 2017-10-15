@@ -26,7 +26,11 @@ def main():
    						param=True
    						nameOfPerson=name
    						image=imgs
+					
    				if(param):
+					#adds people to the list of registered people
+					for imgs in arr:
+						imgs.save("path_to_project/training-images")
    					#send text that blank came home
    					client.api.account.messages.create(
     				to="+12316851234",#twilio generated number
