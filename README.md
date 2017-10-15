@@ -1,1 +1,2 @@
 # smartCamera
+Project for HackRU
